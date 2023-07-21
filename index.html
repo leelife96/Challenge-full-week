@@ -8,19 +8,30 @@
       rel="stylesheet"
      />
     <style></style>
+
+    <!-- 공유 파일 -->
+    <link href="styles/shared.css" rel="stylesheet">
+
     <!-- link는 다른 파일(css파일같은)을 연결 시키기 위함. rel은 이 값을 스타일 시트로 명시함-->
-    <link href="daily-challenge.css" rel="stylesheet" />
+    <link href="styles/daily-challenge.css" rel="stylesheet" />
+
     <title>My Daily Challenge</title>
+
   </head>
+
   <body>
+    <!-- alt는 이미지를 불러오는데 실패했을때 보여주는 폴트 텍스트이다. -->
+    <img src="images/challenges-trophy.jpg" alt="none">
+
     <h1>기웅's 챌린지 7월 18일 화요일</h1>
 
     <!-- 특정 단락에만 스타일을 적용할때는 id를 써야함 -->
     <!-- id 네임을 쓸때는 소문자와 - 만을 쓰자  -->
     <p id="todays-challenge">개발의 기초를 배우다</p>
     <p>
-      더 많은 학습자료에 도달할것이다.
-      <a href="https://www.google.com">클릭하면 구글로 감</a>
+      더 많은 학습자료에 도달할것이다.  
+      <!-- 다른 html 페이지로 넘어가기 위한 하이퍼 링크 -->
+      <a href="full-week.html">full-week</a>
     </p>
   </body>
 </html>
