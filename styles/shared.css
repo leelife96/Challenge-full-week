@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+
+  /* margin은 요소간의 간격을 설정해줌 */
+
+}
+
+h1 {
+  /* 구글 폰트를 쓸때는 반드시 작은 따옴표를 써야함 */
+  font-family: 'Oswad', sans-serif;
+ 
+  color: crimson;
+}
+
+p {
+ /*폴백 폰트란, 해당 서버에서 첫번째 폰트를 불러오지 못할경우 기본값인 폰트를 쓰는것 */
+  font-family: 'Fira Sans', sans-serif;
+ 
+  color: rgb(211, 20, 20);
+}
+
+
+a {
+  color : rgb(167, 1, 78);
+
+  /* 하이퍼링크에 텍스트 밑에 있는 밑줄 지우기 */
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+} /* 가상의 선택자로, 하이퍼 링크위에 마우스를 올려놓으면 밑줄이 생김. 
+   Hover란 이미지, 텍스트, 버튼 등에 마우스 포인터가 올라갔을 때 발동되는 일종의 전환효과를 말합니다. */
+

@@ -1,0 +1,47 @@
+body { 
+    color: rgb(83 ,75, 75);
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+    
+}
+
+p {
+    font-family: 'Fira sans', sans-serif;
+    
+}
+
+a {
+    font-family: 'Fira sans',sans-serif;
+    text-decoration: none;
+    color: rgb(167, 1, 78);
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+   
+}
+
+
+ol {
+    list-style: none;
+    
+}
+
+
+
+ li { 
+    /* 리스트의 목록 번호를 없애주려면 none, 네모로 보이고 싶다면 square */
+    /* list-style: none; */ 
+    list-style: none;
+    list-style: square;
+    margin: 32px;
+    background-color: rgb(233, 136, 124);
+    border-radius: 6px;
+} 
